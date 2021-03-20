@@ -1,0 +1,13 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "坂本優太郎の備忘録"
+theme = "strange-case"
+
+[params]
+    copyright = "@ Yutaro Sakamoto. All Rights Reserved."
+    colorScheme = "scheme-darkbrown"
+    description = "技術・数学に関することを書いていきます"
+
+[[menu.main]]
+    name = "このブログについて"
+    url = "/posts/about"
