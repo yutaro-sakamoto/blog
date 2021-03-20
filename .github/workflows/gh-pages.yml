@@ -26,7 +26,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: yutaro-sakamoto/yutaro-sakamoto.github.io
           publish_branch: main
-          cname: nikaera.com
